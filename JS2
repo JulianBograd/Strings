@@ -1,0 +1,15 @@
+const producto = 'Monitor 20 Pulgadas';
+
+console.log(producto);
+
+// Conocer la cantidad de caracteres del String
+console.log(producto.length);
+
+// Para saber si incluye la palabra en la búsqueda y en qué posición se encuentra
+console.log(producto.indexOf('Pulgadas'));
+
+// Para sanber si incluye la palabra (Da como resultado "True/False" y discrimina mayúsculas)
+console.log(producto.includes('Tablet'));
+console.log(producto.includes('Monitor'));
+console.log(producto.includes('monitor'));
+
